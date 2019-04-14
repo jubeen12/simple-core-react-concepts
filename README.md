@@ -15,12 +15,13 @@
 
 3. use ReactDOM.render to render app. it coonects to root id
 
-
-	<code>	ReactDOM.render(
+```
+		ReactDOM.render(
    	<Hello message="my friend" />, 
   	 document.getElementById("root")
 	);
-	</code>
+	
+```
 
 
 
