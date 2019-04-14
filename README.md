@@ -6,20 +6,19 @@
 2.create component as a class has a render().
 
 
-	class Hello extends React.Component
-	{
+	class Hello extends React.Component {
     render() {
-    return <h1>Hello world!</h1>;
+        return <h1>Hello {this.props.message}!</h1>;
     }
-	}
+}
 
 
 3. use ReactDOM.render to render app. it coonects to root id
 
 
 		ReactDOM.render(
-    	<Hello />, 
-    	document.getElementById("root")
-		);
+    <Hello message="my friend" />, 
+    document.getElementById("root")
+);
 
 It Draws Hello world! to App.html
