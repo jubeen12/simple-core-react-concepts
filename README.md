@@ -15,9 +15,13 @@
 
 3. use ReactDOM.render to render app. it coonects to root id
 
-		ReactDOM.render(
+
+	<code>	ReactDOM.render(
    	<Hello message="my friend" />, 
   	 document.getElementById("root")
 	);
+	</code>
+
+
 
 4.It Draws Hello my friend! to App.html
